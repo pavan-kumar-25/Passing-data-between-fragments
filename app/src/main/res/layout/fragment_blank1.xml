@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".BlankFragment1">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Enter your details"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter Name"
+        android:layout_marginLeft="60dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/age_input"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Age"
+        android:layout_marginLeft="60dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Submit"
+        android:textSize="18sp"/>
+
+</LinearLayout>
